@@ -7,4 +7,25 @@
     android:background="@drawable/fondo7"
     tools:context=".Juego">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <!-- Aquí se agrega la imagen de infografía -->
+        <ImageView
+            android:id="@+id/infografiaImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fondo8"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            />
+
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
